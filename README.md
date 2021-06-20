@@ -1,6 +1,6 @@
 # A Sound Of An IA
 
-This project allows you to train a neural network to generate midi music files that make use of a single instrument
+Este projeto permite que você treine uma rede neural para gerar música apartir de arquivos midi de instrumentos únicos.
 
 ## Requerimentos
 
