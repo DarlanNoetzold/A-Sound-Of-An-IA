@@ -1,19 +1,19 @@
-# Classical Piano Composer
+# A Sound Of An IA
 
 This project allows you to train a neural network to generate midi music files that make use of a single instrument
 
-## Requirements
+## Requerimentos
 
 * Python 3.x
-* Installing the following packages using pip:
+* Instalar os seguintes pacotes:
 	* Music21
 	* Keras
 	* Tensorflow
 	* h5py
 
-## Training
+## Treinando
 
-To train the network you run **lstm.py**.
+Para treinar o modelo **lstm.py**.
 
 E.g.
 
@@ -21,13 +21,11 @@ E.g.
 python lstm.py
 ```
 
-The network will use every midi file in ./midi_songs to train the network. The midi files should only contain a single instrument to get the most out of the training.
+O modelo vai usar os arquivos ./midi_songs para ser treinado. Esses arquivos devem conter apenas instrumentos únicos.
 
-**NOTE**: You can stop the process at any point in time and the weights from the latest completed epoch will be available for text generation purposes.
+## Gerando Música
 
-## Generating music
-
-Once you have trained the network you can generate text using **predict.py**
+Após treinar o modelo você pode rodar o medelo de predição: **predict.py**
 
 E.g.
 
@@ -35,4 +33,4 @@ E.g.
 python predict.py
 ```
 
-You can run the prediction file right away using the **weights.hdf5** file
+Você pode roda também pelo arquivo: **weights.hdf5**
