@@ -27,7 +27,6 @@ def generate():
     create_midi(prediction_output)
 
 def prepare_sequences(notes, pitchnames, n_vocab):
-    """ Prepare the sequences used by the Neural Network """
     # map between notes and integers and back
     note_to_int = dict((note, number) for number, note in enumerate(pitchnames))
 
