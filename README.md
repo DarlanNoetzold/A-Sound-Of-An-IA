@@ -36,3 +36,5 @@ python predict.py
 Você pode roda também pelo arquivo: **weights.hdf5**
 
 ---
+
+⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
